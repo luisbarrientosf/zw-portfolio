@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.textsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.name {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 11px;
+  margin-bottom: 14px;
+  color: #dadada;
+}
+
+.company {
+  font-size: 11px;
+  color: #dadada;
+}
+
+.buttonsContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

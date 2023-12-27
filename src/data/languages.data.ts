@@ -1,100 +1,143 @@
 import { Language } from "@/domain/Language";
 
-export const languages: Language[] = [
+export const mystack: Language[] = [
   {
-    id: "js",
     name: "javascript",
     image: require("../../public/assets/icons/JavaScript-logo.png")
   },
   {
-    id: "ts",
     name: "typescript",
     image: require("../../public/assets/icons/typescript-logo-backpack.jpg")
   },
   {
-    id: "nodejs",
     name: "nodejs",
     image: require("../../public/assets/icons/nodejs.png")
   },
   {
-    id: "mysql",
     name: "mysql",
     image: require("../../public/assets/icons/mysql.png")
   },
   {
-    id: "mongodb",
     name: "mongodb",
-    image: require("../../public/assets/icons/mongodb.png")
+    image: require("../../public/assets/icons/mongodb.svg")
   },
   {
-    id: "postgresql",
-    name: "postgresql",
-    image: require("../../public/assets/icons/postgresql.png")
-  },
-  {
-    id: "nextjs",
     name: "nextjs",
     image: require("../../public/assets/icons/nextjs.png")
   },
   {
-    id: "react",
     name: "react",
     image: require("../../public/assets/icons/React-icon.svg.png")
   },
   {
-    id: "react-native",
     name: "react-native",
     image: require("../../public/assets/icons/React-icon.svg.png")
   },
   {
-    id: "docker",
+    name: "redux",
+    image: require("../../public/assets/icons/redux.svg")
+  },
+  {
     name: "docker",
     image: require("../../public/assets/icons/docker.png")
   },
   {
-    id: "openapi",
     name: "openapi",
     image: require("../../public/assets/icons/openapi-stack-logo.png")
   },
   {
-    id: "storybook",
     name: "storybook",
     image: require("../../public/assets/icons/storybook.png")
   },
   {
-    id: "confluence",
     name: "confluence",
     image: require("../../public/assets/icons/confluence.svg")
   },
   {
-    id: "jira",
     name: "jira",
-    image: require("../../public/assets/icons/typescript-logo-backpack.jpg")
+    image: require("../../public/assets/icons/jira.png")
   },
   {
-    id: "java",
+    name: "jest",
+    image: require("../../public/assets/icons/jest.png")
+  },
+  {
+    name: "cypress",
+    image: require("../../public/assets/icons/cypress.png")
+  },
+  {
+    name: "figma",
+    image: require("../../public/assets/icons/figma.png")
+  },
+]
+
+export const aditionals: Language[] = [
+  {
+    name: "aws",
+    image: require("../../public/assets/icons/aws.png")
+  },
+  {
+    name: "gcp",
+    image: require("../../public/assets/icons/gcp.png")
+  },
+  {
+    name: "ios",
+    image: require("../../public/assets/icons/ios.png")
+  },
+  {
+    name: "android",
+    image: require("../../public/assets/icons/android.png")
+  },
+  {
     name: "java",
     image: require("../../public/assets/icons/java.png")
   },
   {
-    id: "kotlin",
     name: "kotlin",
     image: require("../../public/assets/icons/kotlin.svg")
   },
   {
-    id: "bootstrap",
+    name: "postgresql",
+    image: require("../../public/assets/icons/postgresql.png")
+  },
+  {
+    name: "graphql",
+    image: require("../../public/assets/icons/graphql.png")
+  },
+  {
+    name: "redis",
+    image: require("../../public/assets/icons/redis.svg")
+  },
+  {
+    name: "kafka",
+    image: require("../../public/assets/icons/kafka.png")
+  },
+  {
+    name: "sockets.io",
+    image: require("../../public/assets/icons/socketsio.png")
+  },
+  {
+    name: "zeplin",
+    image: require("../../public/assets/icons/zeplin.png")
+  },
+  {
     name: "bootstrap",
     image: require("../../public/assets/icons/bootstrap.png")
   },
   {
-    id: "material-ui",
     name: "material-ui",
     image: require("../../public/assets/icons/material-ui.svg")
   },
   {
-    id: "redux",
-    name: "redux",
-    image: require("../../public/assets/icons/redux.png")
+    name: "wordpress",
+    image: require("../../public/assets/icons/wordpress.png")
+  },
+  {
+    name: "laravel",
+    image: require("../../public/assets/icons/laravel.png")
+  },
+  {
+    name: "php",
+    image: require("../../public/assets/icons/php.svg")
   }
 ]
-
