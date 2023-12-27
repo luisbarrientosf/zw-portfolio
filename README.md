@@ -5,7 +5,7 @@ This project was created to show my portfolio to the world.
 ## Technical Review
 
 - Typescript
-- Next.js
+- Next.js 14.0.4
 - React
 - css-modules
 - Clean architecture

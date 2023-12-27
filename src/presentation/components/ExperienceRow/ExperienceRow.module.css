@@ -1,0 +1,16 @@
+.company {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.date {
+  font-size: 11px;
+  margin-bottom: 14px;
+  color: #dadada;
+}
+
+.summary {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
