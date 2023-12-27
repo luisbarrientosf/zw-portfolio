@@ -15,12 +15,17 @@
   justify-content: center;
   flex-direction: row;
   gap: 8px;
+  transition: 0.3s;
 }
 
 .button:hover{
   background-color: #eaeaea;
   color: black;
   cursor: pointer;
+}
+.animated:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
 .icon {
@@ -31,4 +36,7 @@
 .button:hover > .icon {
   -webkit-filter: invert(1); /* Safari/Chrome */
   filter: invert(1);
+}
+.animated:hover > .icon {
+  transition: 0.3s;
 }
