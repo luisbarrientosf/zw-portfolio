@@ -13,7 +13,7 @@ import { ProjectRow } from '@/presentation/components/ProjectRow/ProjectRow';
 
 export default function Home() {
   const GITHUB_URL = "https://github.com/luisbarrientosf";
-  const RESUME_URL = "https://drive.google.com/file/d/1CYxkQhqbwZgcklsyTt7QrKy-bPjtShLc";
+  const RESUME_URL = "assets/pdf/CV 2024 Luis Barrientos Fajardo.pdf";
   const LINKEDIN_URL = "https://www.linkedin.com/in/luis-barrientos-fajardo-5aa57412a/";
 
   return (
@@ -37,7 +37,7 @@ export default function Home() {
           <LinkButton
             title='Mi CV'
             icon={require("../../public/assets/icons/document.svg")}
-            href={"assets/pdf/CV 2024 Luis Barrientos Fajardo.pdf"}
+            href={RESUME_URL}
             animated
           />
           <LinkButton
